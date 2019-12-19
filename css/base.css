@@ -1,0 +1,92 @@
+/* TAG 적용 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul, ol, dl {
+	list-style: none;
+}
+
+img {
+	/* display: block; */
+	vertical-align: bottom;
+}
+
+
+/* float, Clearfix */
+.clear:after, .clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+
+/* 반응형 이미지 */
+.img {
+	width: 100%;
+}
+.mimg {
+	max-width: 100%;
+}
+
+
+/* 글자정렬 */
+.tl {
+	text-align: left;
+}
+.tr {
+	text-align: right;
+}
+.tc {
+	text-align: center;
+}
+
+/* 글자색상 */
+.grey-black {color: #222;}
+.grey-darker {color: #444;}
+.grey-dark {color: #666;}
+.grey {color: #888;}
+.grey-light {color: #aaa;}
+.grey-lighter {color: #ccc;}
+.grey-white {color: #f1f1f1;}
+
+.blue-darker {color: #0a2455;}
+.blue-dark {color: #144196;}
+.blue {color: #1b5eda;}
+.blue-light {color: #5c8ae0;}
+.blue-lighter {color: #a0bef7;}
+
+
+/* 버튼세트 */
+.btn-black {
+	background-color: #111;
+	color: #f1f1f1;
+	padding: 12px 16px;
+	border: none;
+	cursor: pointer;
+}
+.btn-black:hover {
+	background-color: #f1f1f1;
+	color: #111;
+}
+
+.btn-white {
+	background-color: #ccc;
+	color: #333;
+	padding: 12px 16px;
+	border: none;
+	cursor: pointer;
+}
+.btn-white:hover {
+	background-color: #333;
+	color: #ccc
+}
+
