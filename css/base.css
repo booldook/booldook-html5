@@ -373,8 +373,9 @@ img {
 .btn-black {
 	background-color: #111;
 	color: #f1f1f1;
-	padding: 12px 16px;
+	padding: 0.75rem 1rem;
 	border: none;
+	outline: none;
 	cursor: pointer;
 }
 .btn-black:hover {
@@ -385,14 +386,24 @@ img {
 .btn-white {
 	background-color: #ccc;
 	color: #333;
-	padding: 12px 16px;
+	padding: 0.75rem 1rem;
 	border: none;
+	outline: none;
 	cursor: pointer;
 }
 .btn-white:hover {
 	background-color: #333;
 	color: #ccc
 }
+.btn-ghost-light {color: #333; padding: 0.75rem 1rem; cursor: pointer;
+border: 1px solid #999; outline: none;}
+.btn-ghost-light:hover {background-color: #ccc;}
+.btn-ghost-grey {color: #333; padding: 0.75rem 1rem; cursor: pointer;
+border: 1px solid #999; outline: none;}
+.btn-ghost-grey:hover {background-color: #999;}
+.btn-ghost-dark {color: #f8f8f8; padding: 0.75rem 1rem; cursor: pointer;
+border: 1px solid #f8f8f8; outline: none;}
+.btn-ghost-dark:hover {background-color: #333;}
 
 .opa-dark {opacity: 0.7;}
 .opa-dark:hover {opacity: 1;}
