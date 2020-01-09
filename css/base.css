@@ -19,6 +19,9 @@ img {
 	vertical-align: bottom;
 }
 
+.rel {position: relative;}
+.abs {position: absolute;}
+.fix {position: fixed;}
 
 /* float, Clearfix */
 .clear:after, .clearfix:after {
