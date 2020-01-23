@@ -60,3 +60,7 @@ $(".box").css({"color": "red"}) // Setter
 
 ## 속성관련
 1. attr("src"), attr("src", "./img/a.jpg"), data(), prop()
+
+## 크기관련
+1. width(), innerWidth(), outerWidth(), outerWidth(true)
+2. position(), offset(), scrollTop() 
